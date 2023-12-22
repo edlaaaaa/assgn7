@@ -33,7 +33,7 @@ class Gaming extends Component {
     const url = 'https://apis.ccbp.in/videos/gaming'
     const options = {
       headers: {
-        Authorization: Bearer ${jwtToken},
+        Authorization: `Bearer ${jwtToken}`,
       },
       method: 'GET',
     }
@@ -66,8 +66,8 @@ class Gaming extends Component {
           return (
             <HomeContainer
               data-testid="loader"
-              bgColor={${bgColor}}
-              color={${color}}
+              bgColor={`${bgColor}`}
+              color={`${color}`}
             >
               {isLoading ? (
                 <LoaderComp />
@@ -84,7 +84,7 @@ class Gaming extends Component {
                         >
                           <SiYoutubegaming
                             size={40}
-                            className={trend-icon ${activeTheme}-icon}
+                            className={`trend-icon ${activeTheme}-icon`}
                           />{' '}
                           Gaming
                         </HeaderEl>
@@ -92,7 +92,7 @@ class Gaming extends Component {
                       <ContentDiv>
                         {dataArray.map(item => (
                           <Link
-                            to={/videos/${item.id}}
+                            to={`/videos/${item.id}`}
                             className={
                               activeTheme === 'light'
                                 ? 'link-light'
@@ -103,7 +103,7 @@ class Gaming extends Component {
                             <ListContainer key={item.id}>
                               <ListItem>
                                 <ImageTag
-                                  src={${item.thumbnail_url}}
+                                  src={`${item.thumbnail_url}`}
                                   width="180px"
                                   alt="video thumbnail"
                                 />

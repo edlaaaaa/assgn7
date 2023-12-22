@@ -55,7 +55,7 @@ class App extends Component {
               <Route exact path="/login" component={Login} />
               <>
                 <Header />
-                <div className={${bgColor} main-frame-container}>
+                <div className={`${bgColor} main-frame-container`}>
                   <Navbar />
                   <div className="content">
                     <Switch>
