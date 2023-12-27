@@ -46,7 +46,7 @@ class VideoCard extends Component {
     const url = https://apis.ccbp.in/videos/${id}
     const options = {
       headers: {
-        Authorization: Bearer ${jwtToken},
+        Authorization: `Bearer ${jwtToken}`,
       },
       method: 'GET',
     }

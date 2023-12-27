@@ -39,7 +39,7 @@ class Home extends Component {
     const url = https://apis.ccbp.in/videos/all?search=${searchVal}
     const options = {
       headers: {
-        Authorization: Bearer ${jwtToken},
+        Authorization: `Bearer ${jwtToken}`,
       },
       method: 'GET',
     }

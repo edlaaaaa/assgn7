@@ -65,7 +65,7 @@ class Header extends Component {
           }
 
           return (
-            <HeaderContainer bgColor={${bgColor}}>
+            <HeaderContainer bgColor={`${bgColor}`}>
               <ImageEl
                 height="25px"
                 i
@@ -86,10 +86,10 @@ class Header extends Component {
                     <BsBrightnessHigh size={25} />
                   )}
                 </ButtonElSmall>
-                <ButtonElSmall color={${color}} onClick={this.showHeader}>
+                <ButtonElSmall color={`${color}`} onClick={this.showHeader}>
                   <GiHamburgerMenu size={25} />
                 </ButtonElSmall>
-                <ButtonElSmall color={${color}} onClick={this.logOut}>
+                <ButtonElSmall color={`${color}`} onClick={this.logOut}>
                   <FiLogOut size={25} />
                 </ButtonElSmall>
               </HeaderContentsSmallContainer>
@@ -119,7 +119,7 @@ class Header extends Component {
                     </ListItem>
                   </Link>
                   <Link to="/saved-videos" className={navColor}>
-                    <ListItem color={${color}}>
+                    <ListItem color={`${color}`}>
                       <MdPlaylistAdd className="nav-icons" />
                       <span>Saved Videos</span>
                     </ListItem>

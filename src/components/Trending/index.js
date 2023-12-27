@@ -37,7 +37,7 @@ class Trending extends Component {
     const url = 'https://apis.ccbp.in/videos/trending'
     const options = {
       headers: {
-        Authorization: Bearer ${jwtToken},
+        Authorization: `Bearer ${jwtToken}`,
       },
       method: 'GET',
     }
@@ -68,7 +68,7 @@ class Trending extends Component {
           const bgColor = activeTheme === 'light' ? '#f9f9f9' : '#000000'
 
           return (
-            <HomeContainer bgColor={${bgColor}} color={${color}}>
+            <HomeContainer bgColor={`${bgColor}`} color={`${color}`}>
               {isLoading ? (
                 <LoaderComp />
               ) : (

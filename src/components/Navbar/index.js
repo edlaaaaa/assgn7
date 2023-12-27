@@ -30,7 +30,7 @@ class Navbar extends Component {
             <DivContainer>
               <ListContainer>
                 <Link to="/">
-                  <ListItems color={${color}} bgColor={${hoverBgColor}}>
+                  <ListItems color={`${color}`} bgColor={`${hoverBgColor}`}>
                     <span className="nav-icons">
                       <HiHome size={20} />
                     </span>{' '}
