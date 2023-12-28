@@ -36,7 +36,7 @@ class Home extends Component {
 
   getVideos = async (searchVal = '') => {
     const jwtToken = Cookies.get('jwt_token')
-    const url = https://apis.ccbp.in/videos/all?search=${searchVal}
+    const url = `https://apis.ccbp.in/videos/all?search=${searchVal}`
     const options = {
       headers: {
         Authorization: `Bearer ${jwtToken}`,
@@ -130,7 +130,7 @@ class Home extends Component {
                           <ContentDiv>
                             {dataArray.map(item => (
                               <Link
-                                to={/videos/${item.id}}
+                                to={`/videos/${item.id}`}
                                 className={
                                   activeTheme === 'light'
                                     ? 'link-light'
