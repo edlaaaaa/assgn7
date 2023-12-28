@@ -17,7 +17,7 @@ import {
   ParaTag,
   HeadDiv,
   HeaderEl,
-} from './styledComponents'
+} from './styeldComponents'
 
 import ErrorImage from '../ErrorImage'
 

@@ -25,7 +25,7 @@ import {
   NoResultsHeading,
   NoResultsPara,
   NoResultsButton,
-} from './styledComponents'
+} from './styeldComponents'
 
 class Home extends Component {
   state = {dataArray: [], isLoading: true, status: '', searchIp: ''}
@@ -90,7 +90,7 @@ class Home extends Component {
           const bgColor = activeTheme === 'light' ? '#f9f9f9' : '#000000'
 
           return (
-            <HomeContainer bgColor={${bgColor}} color={${color}}>
+            <HomeContainer bgColor={`${bgColor}`} color={`${color}`}>
               {isLoading ? (
                 <LoaderComp />
               ) : (
@@ -141,14 +141,14 @@ class Home extends Component {
                                 <ListContainer>
                                   <ListItem>
                                     <ImageTag
-                                      src={${item.thumbnail_url}}
+                                      src={`${item.thumbnail_url}`}
                                       width="100%"
                                     />
                                   </ListItem>
                                   <ListItem>
                                     <div className="logo-div">
                                       <ImageTag
-                                        src={${item.channel.profile_image_url}}
+                                        src={`${item.channel.profile_image_url}`}
                                         width="30px"
                                       />
                                     </div>

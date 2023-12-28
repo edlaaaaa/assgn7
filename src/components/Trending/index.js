@@ -20,7 +20,7 @@ import {
   HeaderEl,
   ContentDiv,
   ParaTag,
-} from './styledComponents'
+} from './styeldComponents'
 
 import ErrorImage from '../ErrorImage'
 
@@ -84,7 +84,7 @@ class Trending extends Component {
                         >
                           <AiFillFire
                             size={40}
-                            className={trend-icon ${activeTheme}-icon}
+                            className={`trend-icon ${activeTheme}-icon`}
                           />{' '}
                           Trending
                         </HeaderEl>
@@ -92,7 +92,7 @@ class Trending extends Component {
                       <ContentDiv>
                         {dataArray.map(item => (
                           <Link
-                            to={/videos/${item.id}}
+                            to={`/videos/${item.id}`}
                             className={
                               activeTheme === 'light'
                                 ? 'link-light'
@@ -103,14 +103,14 @@ class Trending extends Component {
                             <ListContainer>
                               <ListItem>
                                 <ImageTag
-                                  src={${item.thumbnail_url}}
+                                  src={`${item.thumbnail_url}`}
                                   width="350px"
                                 />
                               </ListItem>
                               <ListItem>
                                 <div className="logo-div">
                                   <LogoImage
-                                    src={${item.channel.profile_image_url}}
+                                    src={`${item.channel.profile_image_url}`}
                                     width="30px"
                                   />
                                 </div>

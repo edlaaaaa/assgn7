@@ -13,7 +13,7 @@ import {
   ListContainer,
   ListItems,
   SpanEl,
-} from './styledComponents'
+} from './styeldComponents'
 
 import './index.css'
 
@@ -38,7 +38,7 @@ class Navbar extends Component {
                   </ListItems>
                 </Link>
                 <Link to="/trending">
-                  <ListItems color={${color}} bgColor={${hoverBgColor}}>
+                  <ListItems color={`${color}`} bgColor={`${hoverBgColor}`}>
                     <span className="nav-icons">
                       <AiFillFire size={20} />
                     </span>{' '}
@@ -46,7 +46,7 @@ class Navbar extends Component {
                   </ListItems>
                 </Link>
                 <Link to="/gaming">
-                  <ListItems color={${color}} bgColor={${hoverBgColor}}>
+                  <ListItems color={`${color}`} bgColor={`${hoverBgColor}`}>
                     <span className="nav-icons">
                       <SiYoutubegaming size={20} />
                     </span>{' '}
@@ -54,7 +54,7 @@ class Navbar extends Component {
                   </ListItems>
                 </Link>
                 <Link to="/saved-videos">
-                  <ListItems color={${color}} bgColor={${hoverBgColor}}>
+                  <ListItems color={`${color}`} bgColor={`${hoverBgColor}`}>
                     <span className="nav-icons">
                       <MdPlaylistAdd size={20} />
                     </span>

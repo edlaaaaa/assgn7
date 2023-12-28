@@ -17,7 +17,7 @@ import {
   ListContainer,
   ListItems,
   MainHeader,
-} from './styledComponents'
+} from './styeldComponents'
 
 class SavedVideos extends Component {
   render() {
@@ -54,7 +54,7 @@ class SavedVideos extends Component {
                   </MainHeader>
                   {savedVideos.map(data => (
                     <Link
-                      to={/videos/${data.id}}
+                      to={`/videos/${data.id}`}
                       className={
                         activeTheme === 'light' ? 'link-light' : 'link-dark'
                       }

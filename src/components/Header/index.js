@@ -26,7 +26,7 @@ import {
   ListItem,
   Para,
   ExtraDiv,
-} from './styledComponents'
+} from './styeldComponents'
 
 class Header extends Component {
   state = {displayHeader: 'none'}
@@ -79,7 +79,7 @@ class Header extends Component {
                 cursor="pointer"
               />
               <HeaderContentsSmallContainer>
-                <ButtonElSmall onClick={onChangeTheme} color={${color}}>
+                <ButtonElSmall onClick={onChangeTheme} color={`${color}`}>
                   {activeTheme === 'light' ? (
                     <BsMoon size={25} />
                   ) : (
@@ -103,17 +103,17 @@ class Header extends Component {
                     />
                   </Para>
                   <Link to="/" className={navColor}>
-                    <ListItem color={${color}}>
+                    <ListItem color={`${color}`}>
                       <HiHome className="nav-icons" /> <span>Home</span>
                     </ListItem>
                   </Link>
                   <Link to="/trending" className={navColor}>
-                    <ListItem color={${color}}>
+                    <ListItem color={`${color}`}>
                       <AiFillFire className="nav-icons" /> <span>Trending</span>
                     </ListItem>
                   </Link>
                   <Link to="/gaming" className={navColor}>
-                    <ListItem color={${color}}>
+                    <ListItem color={`${color}`}>
                       <SiYoutubegaming className="nav-icons" />{' '}
                       <span>Gaming</span>
                     </ListItem>

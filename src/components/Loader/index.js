@@ -1,7 +1,7 @@
 import Loader from 'react-loader-spinner'
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css'
 
-import {LoaderEl} from './styledComponents'
+import {LoaderEl} from './styeldComponents'
 
 const LoaderComp = () => (
   <LoaderEl>
