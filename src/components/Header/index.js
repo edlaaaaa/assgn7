@@ -26,7 +26,7 @@ import {
   ListItem,
   Para,
   ExtraDiv,
-} from './styeldComponents'
+} from './styledComponents'
 
 class Header extends Component {
   state = {displayHeader: 'none'}

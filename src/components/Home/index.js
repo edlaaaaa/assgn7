@@ -25,7 +25,7 @@ import {
   NoResultsHeading,
   NoResultsPara,
   NoResultsButton,
-} from './styeldComponents'
+} from './styledComponents'
 
 class Home extends Component {
   state = {dataArray: [], isLoading: true, status: '', searchIp: ''}

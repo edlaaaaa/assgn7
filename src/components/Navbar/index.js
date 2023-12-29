@@ -13,9 +13,7 @@ import {
   ListContainer,
   ListItems,
   SpanEl,
-} from './styeldComponents'
-
-import './index.css'
+} from './styledComponents'
 
 class Navbar extends Component {
   render() {

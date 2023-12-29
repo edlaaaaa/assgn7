@@ -17,7 +17,7 @@ import {
   ListContainer,
   ListItems,
   MainHeader,
-} from './styeldComponents'
+} from './styledComponents'
 
 class SavedVideos extends Component {
   render() {

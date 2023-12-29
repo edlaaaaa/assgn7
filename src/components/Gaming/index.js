@@ -4,8 +4,6 @@ import {SiYoutubegaming} from 'react-icons/si'
 import {Link, Redirect} from 'react-router-dom'
 import LoaderComp from '../Loader'
 
-import './index.css'
-
 import AppTheme from '../../context/Theme'
 
 import {
@@ -17,7 +15,7 @@ import {
   ParaTag,
   HeadDiv,
   HeaderEl,
-} from './styeldComponents'
+} from './styledComponents'
 
 import ErrorImage from '../ErrorImage'
 

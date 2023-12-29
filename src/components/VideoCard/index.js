@@ -43,7 +43,7 @@ class VideoCard extends Component {
     const {params} = match
     const {id} = params
     const jwtToken = Cookies.get('jwt_token')
-    const url = https://apis.ccbp.in/videos/${id}
+    const url = `https://apis.ccbp.in/videos/${id}`
     const options = {
       headers: {
         Authorization: `Bearer ${jwtToken}`,

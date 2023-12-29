@@ -20,7 +20,7 @@ import {
   HeaderEl,
   ContentDiv,
   ParaTag,
-} from './styeldComponents'
+} from './styledComponents'
 
 import ErrorImage from '../ErrorImage'
 
