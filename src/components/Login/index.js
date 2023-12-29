@@ -13,7 +13,7 @@ import {
   LabelEl,
   ButtonEl,
   ErrorMsg,
-} from './styledComponents'
+} from './styeldComponents'
 
 class Login extends Component {
   state = {
