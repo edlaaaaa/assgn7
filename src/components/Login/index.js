@@ -94,8 +94,9 @@ class Login extends Component {
           />
           <LoginFormContainer onSubmit={this.formSubmit}>
             <LoginDivContainer>
-              <LabelEl>USERNAME</LabelEl>
+              <LabelEl htmlFor="username">USERNAME</LabelEl>
               <InputEl
+                id="username"
                 type="text"
                 placeholder="Username"
                 value={username}
@@ -103,7 +104,7 @@ class Login extends Component {
               />
             </LoginDivContainer>
             <LoginDivContainer>
-              <LabelEl>PASSWORD</LabelEl>
+              <LabelEl htmlFor="username">PASSWORD</LabelEl>
               <InputEl
                 type={visibility ? 'text' : 'password'}
                 placeholder="Password"
