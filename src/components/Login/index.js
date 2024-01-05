@@ -104,8 +104,9 @@ class Login extends Component {
               />
             </LoginDivContainer>
             <LoginDivContainer>
-              <LabelEl htmlFor="username">PASSWORD</LabelEl>
+              <LabelEl htmlFor="password">PASSWORD</LabelEl>
               <InputEl
+                id="password"
                 type={visibility ? 'text' : 'password'}
                 placeholder="Password"
                 value={password}
@@ -114,6 +115,7 @@ class Login extends Component {
             </LoginDivContainer>
             <LoginDivContainer direction="row">
               <InputEl
+                id="checkbox"
                 type="checkbox"
                 id="checkbox"
                 onChange={this.showPassword}
