@@ -117,7 +117,6 @@ class Login extends Component {
               <InputEl
                 id="checkbox"
                 type="checkbox"
-                id="checkbox"
                 onChange={this.showPassword}
               />
               <LabelEl htmlFor="checkbox" cursor="pointer">
