@@ -150,6 +150,7 @@ class Home extends Component {
                                       <ImageTag
                                         src={`${item.channel.profile_image_url}`}
                                         width="30px"
+                                        alt="channel logo"
                                       />
                                     </div>
                                     <div>
@@ -161,7 +162,7 @@ class Home extends Component {
                                       </ParaTag>
                                       <ParaTag fontSize="12px">
                                         {item.view_count} views .{' '}
-                                        <span>{item.published_at}</span>
+                                        <p>{item.published_at}</p>
                                       </ParaTag>
                                     </div>
                                   </ListItem>

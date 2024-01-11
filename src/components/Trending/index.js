@@ -105,6 +105,7 @@ class Trending extends Component {
                                 <ImageTag
                                   src={`${item.thumbnail_url}`}
                                   width="350px"
+                                  alt="channel logo"
                                 />
                               </ListItem>
                               <ListItem>
@@ -123,7 +124,7 @@ class Trending extends Component {
                                   </ParaTag>
                                   <ParaTag fontSize="12px">
                                     {item.view_count} views .{' '}
-                                    <span>{item.published_at}</span>
+                                    <p>{item.published_at}</p>
                                   </ParaTag>
                                 </div>
                               </ListItem>

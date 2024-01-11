@@ -131,6 +131,7 @@ class Header extends Component {
                   border="none"
                   onClick={onChangeTheme}
                   color={color}
+                  data-testid="theme"
                 >
                   {activeTheme === 'light' ? (
                     <BsMoon size={25} />
