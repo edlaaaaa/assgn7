@@ -12,11 +12,17 @@ const NotFound = () => (
         <DivEl bgColor={bgColor} color={color}>
           {activeTheme === 'light' ? (
             <>
-              <ImageEl src="https://assets.ccbp.in/frontend/react-js/nxt-watch-not-found-light-theme-img.png" />
+              <ImageEl
+                src="https://assets.ccbp.in/frontend/react-js/nxt-watch-not-found-light-theme-img.png"
+                alt="not found"
+              />
             </>
           ) : (
             <>
-              <ImageEl src="https://assets.ccbp.in/frontend/react-js/nxt-watch-not-found-dark-theme-img.png" />
+              <ImageEl
+                src="https://assets.ccbp.in/frontend/react-js/nxt-watch-not-found-dark-theme-img.png"
+                alt="not found"
+              />
             </>
           )}
           <Header>Page Not Found</Header>

@@ -143,6 +143,7 @@ class Home extends Component {
                                     <ImageTag
                                       src={`${item.thumbnail_url}`}
                                       width="100%"
+                                      alt="video thumbnail"
                                     />
                                   </ListItem>
                                   <ListItem>

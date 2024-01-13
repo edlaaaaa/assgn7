@@ -103,7 +103,7 @@ class Gaming extends Component {
                                 <ImageTag
                                   src={`${item.thumbnail_url}`}
                                   width="180px"
-                                  alt="video thumbnail"
+                                  alt="channel logo"
                                 />
                               </ListItem>
                               <ListItem>

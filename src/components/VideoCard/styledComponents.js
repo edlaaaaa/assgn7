@@ -19,7 +19,7 @@ export const VideoFrameContainer = styled.div`
     align-items: center;
   }
 `
-export const ParaEl = styled.p`
+export const ParaEl = styled.button`
   font-size: 15px;
   padding-left: 20px;
   padding-bottom: ${props => props.padding};
@@ -50,7 +50,7 @@ export const ContentContainer = styled.div``
 export const ImageEl = styled.img`
   height: 40px;
 `
-export const IconParas = styled.p`
+export const IconParas = styled.button`
   cursor: pointer;
   color: ${props => props.iconColor};
   font-size: 15px;
