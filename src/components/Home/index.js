@@ -87,10 +87,14 @@ class Home extends Component {
         {value => {
           const {activeTheme} = value
           const color = activeTheme === 'light' ? '#000000' : '#ffffff'
-          const bgColor = activeTheme === 'light' ? '#f9f9f9' : '#000000'
+          const bgColor = activeTheme === 'light' ? '#f9f9f9' : '#181818'
 
           return (
-            <HomeContainer bgColor={`${bgColor}`} color={`${color}`}>
+            <HomeContainer
+              data-testid="home"
+              bgColor={`${bgColor}`}
+              color={`${color}`}
+            >
               {isLoading ? (
                 <LoaderComp />
               ) : (
@@ -114,7 +118,7 @@ class Home extends Component {
                           <NoResults>
                             <NoVideosImage
                               src="https://assets.ccbp.in/frontend/react-js/nxt-watch-no-search-results-img.png"
-                              alt="no videos"
+                              alt="nxt watch logo"
                             />
                             <NoResultsHeading>
                               No Search results found

@@ -22,7 +22,7 @@ class Navbar extends Component {
         {value => {
           const {activeTheme} = value
           const color = activeTheme === 'light' ? '#000000' : '#ffffff'
-          const hoverBgColor = activeTheme === 'light' ? '#616e7c' : '#475569'
+          const BgColor = activeTheme === 'light' ? '#616e7c' : '#475569'
 
           return (
             <DivContainer>

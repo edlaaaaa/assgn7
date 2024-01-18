@@ -59,11 +59,11 @@ class Gaming extends Component {
           const {activeTheme} = value
 
           const color = activeTheme === 'light' ? '#000000' : '#ffffff'
-          const bgColor = activeTheme === 'light' ? '#f9f9f9' : '#000000'
+          const bgColor = activeTheme === 'light' ? '#f9f9f9' : '#181818'
 
           return (
             <HomeContainer
-              data-testid="loader"
+              data-testid="home"
               bgColor={`${bgColor}`}
               color={`${color}`}
             >
