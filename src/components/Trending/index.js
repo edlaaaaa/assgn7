@@ -69,7 +69,7 @@ class Trending extends Component {
 
           return (
             <HomeContainer
-              data-testid="home"
+              data-testid="trending"
               bgColor={`${bgColor}`}
               color={`${color}`}
             >

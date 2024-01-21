@@ -118,7 +118,7 @@ class Home extends Component {
                           <NoResults>
                             <NoVideosImage
                               src="https://assets.ccbp.in/frontend/react-js/nxt-watch-no-search-results-img.png"
-                              alt="nxt watch logo"
+                              alt="no videos"
                             />
                             <NoResultsHeading>
                               No Search results found

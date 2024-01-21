@@ -63,7 +63,7 @@ class Gaming extends Component {
 
           return (
             <HomeContainer
-              data-testid="home"
+              data-testid="gaming"
               bgColor={`${bgColor}`}
               color={`${color}`}
             >
